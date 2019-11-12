@@ -1,0 +1,21 @@
+<h1>The Body is HEREEEEEE</h1>
+
+<ul>
+  <li class="blue">Blue</li>
+  <li class="green">Green</li>
+  <li class="purple">Purple</li>
+  <li class="red">Red</li>
+  <li class="brown">Brown</li>
+</ul>
+
+<h2>Other colors</h2>
+{{> otherColors}}
+
+{{!-- <h2>{{passedValue}}</h2> --}}
+
+<ul>
+  {{#each passedValue}}
+  <li>{{this.Name}} {{this.Profession}}</li>
+  {{/each}}
+</ul>
+

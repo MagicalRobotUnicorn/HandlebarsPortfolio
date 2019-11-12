@@ -1,0 +1,23 @@
+{
+  "name": "handlebarsportfolio",
+  "version": "1.0.0",
+  "description": "A reworking of my existing portfolio for utilization of the Handlebars templating engine within a Node JS environment.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicalRobotUnicorn/HandlebarsPortfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagicalRobotUnicorn/HandlebarsPortfolio/issues"
+  },
+  "homepage": "https://github.com/MagicalRobotUnicorn/HandlebarsPortfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
