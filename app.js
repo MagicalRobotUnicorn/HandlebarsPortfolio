@@ -4,6 +4,8 @@ const PORT = 3000;
 
 const handlebars = require('express-handlebars');
 
+var allProjects = require('./public/assets/javascript/portfolioData');
+
 app.set('view engine', 'hbs');
 
 app.engine('hbs', handlebars({
@@ -15,25 +17,16 @@ app.engine('hbs', handlebars({
 
 app.use(express.static('public'));
 
-const fakeApi = () => "Return Value!";
-
-function newList() {
-  var list = [
-    {
-      Name: "Henry",
-      Profession: "Programmer"
-    },
-    {
-      Name: "Chuck",
-      Profession: "Plumber"
-    }
-  ];
-
-  return list;
-}
-
 app.get('/', (req, res) => {
-  res.render('main', {layout: 'index', passedValue : newList()});
+  res.render('main', {layout: 'index'});
+});
+
+app.get('/portfolio', (req, res) => {
+  res.render('portfolio', {layout: 'portfolioLayout', allProjects: allProjects});
+});
+
+app.get('/contact', (req, res) => {
+  res.render('portfolio', {layout: 'contactLayout'});
 });
 
 app.listen(PORT, () => {
