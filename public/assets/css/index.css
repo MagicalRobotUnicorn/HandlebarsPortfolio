@@ -1,0 +1,121 @@
+.header {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-content: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid grey;
+}
+
+.footer {
+  width: 100%;
+  border-top: 2px solid grey;
+  height: 5px;
+}
+
+.name {
+  float: left;
+}
+
+.nav {
+  float: right;
+}
+
+.inner-header {
+  width: 960px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.nav {
+  font-family: 'Permanent Marker', cursive;
+}
+
+body {
+  font-family: 'Cormorant Infant', serif;
+}
+
+.container {
+  font-size: 20px;
+}
+
+.total-content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin: 75px;
+  text-align: center;
+}
+
+.img-circle {
+  width: auto;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.word-content {
+  width: 500px;
+  height: 333px;
+  text-align: left;
+  float: right;
+  display: block;
+}
+
+h1 {
+  margin: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#linkedinLogo {
+  width: 10%;
+  height: auto;
+}
+
+.linkedinImage {
+  width: 50%;
+  height: auto;
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+
+.octocatImage {
+  width: 50%;
+  height: auto;
+  padding-top: 5%; 
+  margin-left: 20%;
+  margin-bottom: 15%;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 45%;
+  align-content: center;
+}
+
+div.gallery img {
+  height: auto;
+  margin-bottom: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
