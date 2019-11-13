@@ -26,7 +26,7 @@ app.get('/portfolio', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-  res.render('portfolio', {layout: 'contactLayout'});
+  res.render('contact', {layout: 'contactLayout'});
 });
 
 app.listen(PORT, () => {
